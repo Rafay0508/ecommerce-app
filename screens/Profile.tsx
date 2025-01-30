@@ -1,12 +1,8 @@
 import {Button, StyleSheet, Text, View} from 'react-native';
 import React from 'react';
-import {NativeStackNavigationProp} from '@react-navigation/native-stack';
 import {SCREENS} from '../types/screens-enum';
 import {useNavigation} from '@react-navigation/native';
-
-type NavigationProp = NativeStackNavigationProp<{
-  [key in keyof typeof SCREENS]: undefined;
-}>;
+import {NavigationProp} from '../types/NavigationProp';
 
 const Profile = () => {
   const navigation = useNavigation<NavigationProp>();
