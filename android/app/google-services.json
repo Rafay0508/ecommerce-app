@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "137260167369",
+    "project_id": "boiler-project-75251",
+    "storage_bucket": "boiler-project-75251.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137260167369:android:a8bf834850a2a48838dd18",
+        "android_client_info": {
+          "package_name": "com.react_native_boilerplate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw7xh-0lyDv3JGEMqBcRY3KpQdwCnlkMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
